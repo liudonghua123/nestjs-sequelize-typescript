@@ -1,10 +1,10 @@
 export const config = {
     database: {
-        dialect: 'postgres',
+        dialect: 'mysql',
         host: 'localhost',
-        port: 5432,
-        username: 'postgres',
-        password: 'postgres',
+        port: 3306,
+        username: 'root',
+        password: '',
         database: 'nest',
         logging: false,
     },
